@@ -5,7 +5,7 @@ import { Product } from "@/types"
 import { toast } from "react-hot-toast"
 
 interface Props {
-	items: Product[]
+	items: Product[] 
 	addItem: (data: Product) => void
 	removeItem: (id: string) => void
 	removeAll: () => void
